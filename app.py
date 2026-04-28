@@ -180,7 +180,7 @@ with col1:
                         
                         # [2단계] GPT 요약
                         response = client.chat.completions.create(
-                            model="gpt-4o",
+                            model="gpt-4o-mini",
                             messages=[
                                 {"role": "system", "content": user_prompt},
                                 {"role": "user", "content": f"[Dialogue]\n{st.session_state.raw_transcript}"}
