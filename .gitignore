@@ -1,0 +1,7 @@
+# Streamlit secrets (절대 GitHub에 올리지 말 것!)
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.env
